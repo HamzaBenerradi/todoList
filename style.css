@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(0deg,rgba(38, 105, 206, 0.8),rgba(255, 0, 0, 0.6));
+    height: 100vh;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+table{
+    border-radius: 25px !important;
+}
+
+th{
+    background-color: rgba(255,255,255, 0.4) !important;
+}
+td{
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+header{
+    padding: 25px 0 30px;
+}
+
+header nav div img{
+    width: 180px;
+}
+header nav div h4{
+    color: white;
+    font-size: 18px;
+}
+
+.containers{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    display: inline !important;
+    background-color: rgba(255, 0, 0, 0.1) !important;
+    color: white !important;
+    box-shadow: 0 0 0 0 white !important;
+}
+
+input::placeholder{
+    color: white !important;
+}
+
+button.addtask{
+    font-weight: bolder;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 5px 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border: rgba(255, 255, 255, 0.2) solid 2px;
+    text-shadow: 0px 8px 32px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.7s;
+}
+
+
+button.addtask:hover{
+    border-radius: 15px;
+    color: rgba(255, 0, 0, 0.7);
+    padding: 5px 25px;
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(15px);
+    border: rgba(255, 0, 0, 0.5) solid 2px;
+    text-shadow: 0px 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.tasktitle{
+text-align: center;
+margin: 25px 0;
+color: rgba(234, 234, 234, 0.888); 
+}
+
+.table{
+    margin: 0 auto;
+}
+
+.tasklist{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tasklist div{
+    width: 700px;
+    margin: 10px;
+}
